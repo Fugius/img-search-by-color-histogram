@@ -1,0 +1,50 @@
+FileUtils (FileManager ?): Manipuler des fichiers de sauvegarde d'histogrames
+Lib : Java
+
+Constructor : I/O = null
+GetImgNumber : I = path / O = int (number of images in folder)
+SaveHistograms : I = path + ImgList / O = null
+LoadHistograms : I = path / O = ImgList
+
+
+
+StartWindow : GUI, fenetre de bienvenue avec nom logiciel + start button + autres infos si necessaire
+Lib : Java (Swingx + awt)
+
+Herite : JFrame
+Interface : ActionListener
+
+Constructor : I/O = null
+InitUI : I/O = null (init all GUI elements)
+(?)Draw : I/O = null (afficher les elemnts voulus a l'éran)
+actionPerformed I = ActionEvent / O = null (method from actionListener, called when an action is performed by user)
+
+
+
+
+OptionsWindow : GUI, choix des options / path des images
+Lib : Java (Swingx + awt)
+
+Herite : JFrame
+Interface : ActionListener
+
+Constructor : I/O = null
+InitUI : I/O = null (init all GUI elements)
+(?)Draw : I/O = null (afficher les elemnts voulus a l'éran)
+actionPerformed I = ActionEvent / O = null (method from actionListener, called when an action is performed by user)
+
+
+
+ResultWindow : GUI, Affichage du resultat
+Lib : Java (Swingx + awt)
+
+Herite : JFrame
+Interface : ActionListener
+
+Constructor : I/O = null
+InitUI : I/O = null (init all GUI elements)
+(?)Draw : I/O = null (afficher les elemnts voulus a l'éran)
+actionPerformed I = ActionEvent / O = null (method from actionListener, called when an action is performed by user)
+
+
+
